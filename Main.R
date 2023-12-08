@@ -57,3 +57,5 @@ df_wyniki <- data.frame(
   Skośność = c_skewness,
   Kurtoza = c_kurtosis
 )
+hist(dane_szerokie$Kraków)
+plot(density(dane_szerokie$Kraków))
